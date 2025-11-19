@@ -1,0 +1,160 @@
+================================================================================
+   ANÁLISIS ECONÓMICO: INFORMALIDAD Y RECAUDACIÓN EN MÉXICO
+================================================================================
+
+1. DIAGNÓSTICO DE MAGNITUD (Promedios Trimestrales)
+------------------------------------------------------------
+VAB Comercio Informal: $1,710,592 Millones MXN
+Recaudación IMSS:      $79,581 Millones MXN
+RATIO: El sector informal es 21.49 veces más grande que la recaudación del IMSS.
+
+2. ANÁLISIS DE CICLOS ECONÓMICOS (Variación Anual)
+------------------------------------------------------------
+Correlación entre el crecimiento del VAB Informal y la Recaudación:
+ - vs ISR:  -0.0497
+ - vs IVA:  0.2043
+ - vs IMSS: 0.6524
+INTERPRETACIÓN: La correlación cercana a cero (o negativa) en impuestos como el ISR
+indica una desconexión estructural. El fisco no ve los flujos del comercio informal.
+
+3. RESULTADOS ECONOMÉTRICOS (Regresión OLS Log-Log)
+------------------------------------------------------------
+
+============================================================
+MODELO: Log(ISR) vs Log(Informalidad)
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    ISR   R-squared:                       0.834
+Model:                            OLS   Adj. R-squared:                  0.832
+Method:                 Least Squares   F-statistic:                     516.1
+Date:                Tue, 18 Nov 2025   Prob (F-statistic):           6.56e-42
+Time:                        18:31:29   Log-Likelihood:                 29.607
+No. Observations:                 105   AIC:                            -55.21
+Df Residuals:                     103   BIC:                            -49.91
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -5.7830      0.815     -7.095      0.000      -7.400      -4.166
+VAB_Informal     1.2946      0.057     22.719      0.000       1.182       1.408
+==============================================================================
+Omnibus:                        9.895   Durbin-Watson:                   0.779
+Prob(Omnibus):                  0.007   Jarque-Bera (JB):               10.037
+Skew:                           0.741   Prob(JB):                      0.00662
+Kurtosis:                       3.309   Cond. No.                         652.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+============================================================
+MODELO: Log(IVA) vs Log(Informalidad)
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    IVA   R-squared:                       0.898
+Model:                            OLS   Adj. R-squared:                  0.897
+Method:                 Least Squares   F-statistic:                     903.3
+Date:                Tue, 18 Nov 2025   Prob (F-statistic):           8.69e-53
+Time:                        18:31:29   Log-Likelihood:                 85.272
+No. Observations:                 105   AIC:                            -166.5
+Df Residuals:                     103   BIC:                            -161.2
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -2.1693      0.480     -4.522      0.000      -3.121      -1.218
+VAB_Informal     1.0079      0.034     30.054      0.000       0.941       1.074
+==============================================================================
+Omnibus:                        3.710   Durbin-Watson:                   1.014
+Prob(Omnibus):                  0.156   Jarque-Bera (JB):                3.602
+Skew:                           0.450   Prob(JB):                        0.165
+Kurtosis:                       2.890   Cond. No.                         652.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+============================================================
+MODELO: Log(IMSS) vs Log(Informalidad)
+============================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   IMSS   R-squared:                       0.947
+Model:                            OLS   Adj. R-squared:                  0.947
+Method:                 Least Squares   F-statistic:                     1849.
+Date:                Tue, 18 Nov 2025   Prob (F-statistic):           1.27e-67
+Time:                        18:31:29   Log-Likelihood:                 110.46
+No. Observations:                 105   AIC:                            -216.9
+Df Residuals:                     103   BIC:                            -211.6
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const           -5.0099      0.377    -13.275      0.000      -5.758      -4.261
+VAB_Informal     1.1346      0.026     43.005      0.000       1.082       1.187
+==============================================================================
+Omnibus:                       71.758   Durbin-Watson:                   1.204
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              594.160
+Skew:                           2.063   Prob(JB):                    9.55e-130
+Kurtosis:                      13.899   Cond. No.                         652.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+================================================================================
+   PROPUESTA DE POLÍTICA PÚBLICA: 'TRAZABILIDAD FISCAL AGUAS ABAJO'
+================================================================================
+
+TÍTULO DE LA INICIATIVA:
+Programa de Formalización Digital de la Cadena de Suministro (PFD-CS).
+
+CONTEXTO Y JUSTIFICACIÓN:
+El análisis cuantitativo demuestra que, aunque el sector de comercio informal genera un Valor Agregado
+Bruto promedio de 1.7 billones de pesos trimestrales (21 veces la recaudación del IMSS), existe una
+correlación nula (-0.05) entre sus ciclos económicos y la recaudación de ISR. Esto evidencia que los
+mecanismos actuales de fiscalización, centrados en la emisión de facturas por parte del proveedor, pierden
+la trazabilidad en el último eslabón de la cadena: la venta al 'Público en General'.
+
+OBJETIVO:
+Impulsar la transición a la formalidad mediante la 'Trazabilidad Forward-Link' (hacia adelante),
+utilizando a los grandes distribuidores como catalizadores de la regularización de sus clientes.
+
+MECANISMO DE IMPLEMENTACIÓN:
+
+1. RESTRICCIÓN DE FACTURACIÓN GENÉRICA PARA GRANDES CONTRIBUYENTES:
+   Se implementará una normativa progresiva que limite el porcentaje de ventas que los Grandes
+   Contribuyentes (distribuidores mayoristas y empresas de consumo masivo) pueden facturar bajo el RFC
+   genérico de 'Público en General'. Para poder venderle a sus clientes comerciales (tienditas, puestos),
+   será requisito vincular la venta a un RFC válido.
+
+2. TECNOLOGÍA DE FRICCIÓN MÍNIMA (QR - CIF):
+   Para evitar que la burocracia paralice el comercio, la identificación se realizará mediante el escaneo
+   del código QR de la Cédula de Identificación Fiscal (CIF). El pequeño comerciante podrá tener su CIF
+   impresa o digital. El repartidor/vendedor del distribuidor escaneará el QR al momento de la entrega,
+   vinculando automáticamente el CFDI de ingreso sin necesidad de intercambio manual de datos.
+
+3. INCENTIVOS DE CUMPLIMIENTO (PUSH & PULL):
+   A) Para el Distribuidor (Grandes Empresas): Se otorgarán beneficios fiscales, como depreciación acelerada
+      de activos logísticos, a aquellas empresas que logren identificar con RFC al 90% de su cartera de clientes.
+   B) Para el Pequeño Comerciante: Al realizar su primera compra identificada, el sistema lo pre-inscribirá
+      automáticamente en el Régimen Simplificado de Confianza (RESICO), otorgándole un periodo de gracia
+      de 6 meses sin obligaciones de pago, para facilitar su adaptación administrativa.
+
+4. FISCALIZACIÓN INTELIGENTE (DETECCIÓN DE DISCREPANCIAS):
+   Al digitalizar la venta del proveedor, el SAT obtendrá información precisa sobre el costo de ventas e
+   inventarios del pequeño comercio. Si un RFC (Persona Física) registra compras de insumos por montos
+   elevados pero declara ingresos de cero o inexistentes, se activarán alertas automáticas por Discrepancia
+   Fiscal, permitiendo auditorías dirigidas y eficientes.
+
+IMPACTO ESPERADO:
+Aumentar la base de contribuyentes activos, reducir la evasión en el IVA trasladado y alinear el crecimiento
+de la recaudación tributaria con el verdadero dinamismo del sector comercio.
