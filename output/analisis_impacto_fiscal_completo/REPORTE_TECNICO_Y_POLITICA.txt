@@ -28,8 +28,8 @@ MODELO: Log(ISR) vs Log(Informalidad)
 Dep. Variable:                    ISR   R-squared:                       0.834
 Model:                            OLS   Adj. R-squared:                  0.832
 Method:                 Least Squares   F-statistic:                     516.1
-Date:                Tue, 18 Nov 2025   Prob (F-statistic):           6.56e-42
-Time:                        18:31:29   Log-Likelihood:                 29.607
+Date:                Thu, 20 Nov 2025   Prob (F-statistic):           6.56e-42
+Time:                        10:49:28   Log-Likelihood:                 29.607
 No. Observations:                 105   AIC:                            -55.21
 Df Residuals:                     103   BIC:                            -49.91
 Df Model:                           1                                         
@@ -58,8 +58,8 @@ MODELO: Log(IVA) vs Log(Informalidad)
 Dep. Variable:                    IVA   R-squared:                       0.898
 Model:                            OLS   Adj. R-squared:                  0.897
 Method:                 Least Squares   F-statistic:                     903.3
-Date:                Tue, 18 Nov 2025   Prob (F-statistic):           8.69e-53
-Time:                        18:31:29   Log-Likelihood:                 85.272
+Date:                Thu, 20 Nov 2025   Prob (F-statistic):           8.69e-53
+Time:                        10:49:28   Log-Likelihood:                 85.272
 No. Observations:                 105   AIC:                            -166.5
 Df Residuals:                     103   BIC:                            -161.2
 Df Model:                           1                                         
@@ -88,8 +88,8 @@ MODELO: Log(IMSS) vs Log(Informalidad)
 Dep. Variable:                   IMSS   R-squared:                       0.947
 Model:                            OLS   Adj. R-squared:                  0.947
 Method:                 Least Squares   F-statistic:                     1849.
-Date:                Tue, 18 Nov 2025   Prob (F-statistic):           1.27e-67
-Time:                        18:31:29   Log-Likelihood:                 110.46
+Date:                Thu, 20 Nov 2025   Prob (F-statistic):           1.27e-67
+Time:                        10:49:28   Log-Likelihood:                 110.46
 No. Observations:                 105   AIC:                            -216.9
 Df Residuals:                     103   BIC:                            -211.6
 Df Model:                           1                                         
